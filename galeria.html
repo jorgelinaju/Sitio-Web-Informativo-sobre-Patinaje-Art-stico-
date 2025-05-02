@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galería</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <img src="img/logo.png" alt="Logo del sitio" class="logo">
+    <h1>Patinaje Artístico</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="galeria.html">Galería</a></li>
+        <li><a href="calendario.html">Calendario</a></li>
+        <li><a href="reglamentos.html">Reglamentos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Galería de Fotos</h2>
+
+    <div class="carousel">
+      <input type="radio" name="slides" id="slide1" checked>
+      <input type="radio" name="slides" id="slide2">
+      <input type="radio" name="slides" id="slide3">
+      <input type="radio" name="slides" id="slide4">
+    
+      <div class="slides">
+        <div class="slide s1"><img src="img/seleccion.jpg" alt="Parte de la selección argentina en AIS 2024."></div>
+        <div class="slide s2"><img src="img/seleccionado.jpeg" alt="Seleccionado argentino en el sudamericano de San Juan."></div>
+        <div class="slide s3"><img src="img/anabella.jpg" alt="Anabella compitiendo en figuras obligatorias."></div>
+        <div class="slide s4"><img src="img/milagros.jpg" alt="Milagros en los WSG 2022."></div>
+      </div>
+    
+      <div class="navigation">
+        <label for="slide1"></label>
+        <label for="slide2"></label>
+        <label for="slide3"></label>
+        <label for="slide4"></label>
+      </div>
+    </div>
+
+    
+  
+
+    <h2>Video Destacado</h2>
+    <p>Recordamos los World Skate Games 2022 realizados en nuestro país a través de la presentación de la canción "Argentina es mundial" hecha por Donaires.</p>
+    <video controls width="400">
+      <source src="videos/argentina_mundial.mp4" type="video/mp4">
+    </video>
+  </main>
+
+  <footer>
+    <p>Alumnos: Maez Jazmín y Galeano Jorgelina | DESARROLLO DE SISTEMAS WEB | Año: 2025</p>
+  </footer>
+</body>
+</html>
