@@ -11,11 +11,18 @@ header {
   background-color: #9552c5;
   color: white;
   text-align: center;
-  padding: 10px 0;
+  padding: 20px 0;
+}
+
+.presentacion-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
 }
 
 .logo {
-  height: 60px;
+  height: 50px;
 }
 
 nav ul {
@@ -287,7 +294,7 @@ video {
 /* Estilos para la sección de Contacto */
 .seccion-contacto {
   max-width: 600px;
-  margin: 0 auto;
+  margin: 40px auto;
   padding: 30px 20px;
   background-color: #fefefe;
   border-radius: 12px;
@@ -303,24 +310,43 @@ video {
 .seccion-contacto form {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  margin: 0 10%;
+  gap: 20px;
+  align-items: center;
 }
 
-.seccion-contacto label {
+.form-group {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 500px;
+}
+
+.form-group label {
   font-weight: bold;
   color: #555;
+  width: 80px;
+  text-align: left;
 }
 
-.seccion-contacto input,
-.seccion-contacto textarea {
+.form-group input,
+.form-group textarea {
+  flex: 1;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 8px;
   font-size: 1em;
-  resize: vertical;
+  width: 70%;
+  margin: 10px;
 }
 
-.seccion-contacto button {
+.form-group textarea {
+  resize: none;
+}
+
+.form-group button {
+  margin-left: 80px;
   padding: 10px;
   background-color: #9552c5;
   color: white;
@@ -329,6 +355,7 @@ video {
   font-size: 1em;
   cursor: pointer;
   transition: background-color 0.3s;
+  width: 70%;
 }
 
 .seccion-contacto button:hover {
