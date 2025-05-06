@@ -65,6 +65,14 @@ form input, form textarea {
   padding: 8px;
 }
 
+/* Estilos de la sección Inicio */
+
+.banner-inicio {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
 /* --- Carrusel adaptado a pantalla --- */
 .slider-galeria {
   position: relative;
@@ -144,9 +152,8 @@ form input, form textarea {
 
 main h2 {
   text-align: center;
-  margin-top: 40px;
+  margin: 20px 0 ;
   color: #9552c5;
-  margin-bottom: 30px;
 }
 
 table {
