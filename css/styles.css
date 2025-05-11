@@ -111,8 +111,8 @@ form input, form textarea {
 }
 
 .slide img {
-  width: 100%;/*ajusta el ancho automáticamente*/ 
-  height: 100%;  /*Ajusta la altura automáticamente*/
+  width: 100%;
+  height: 100%;  
   object-fit: contain;
   
 }
