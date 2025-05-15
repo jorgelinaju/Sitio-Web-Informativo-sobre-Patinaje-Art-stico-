@@ -34,7 +34,7 @@ En este proyecto se hace uso de los elementos siguientes:
 ## 🌐 Demo online
 
 El sitio se encuentra publicado en GitHub Pages, podés verlo en:  
-👉 (https://jorgelinaju.github.io/Sitio-Web-de-Patinaje-Artístico)
+👉 (https://jorgelinaju.github.io/Sitio-Web-Informativo-sobre-Patinaje-Art-stico-/)
 
 ---
 
