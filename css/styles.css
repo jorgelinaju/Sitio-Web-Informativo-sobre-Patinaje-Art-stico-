@@ -1,10 +1,29 @@
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('../fonts/NotoSans-VariableFont_wdth,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Outfit';
+  src: url('../fonts/Outfit-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+
 /* Estilos base para todo el sitio */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f8f9fa;
   color: #333;
+}
+
+h1, h2 {
+    font-family: 'Outfit', sans-serif;
 }
 
 header {
